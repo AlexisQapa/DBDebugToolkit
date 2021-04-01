@@ -4,10 +4,10 @@
 import PackageDescription
 
 let package = Package(
-	name: "DBDebugToolKit",
+	name: "DBDebugToolkit",
 	defaultLocalization: "fr",
 	platforms: [.iOS("13.4")],
-	products: [.library(name: "DBDebugToolKit", targets: ["DBDebugToolKit"])],
+	products: [.library(name: "DBDebugToolkit", targets: ["DBDebugToolkit"])],
 	dependencies: [],
-	targets: [.target(name: "DBDebugToolKit")]
+	targets: [.target(name: "DBDebugToolkit")]
 )
