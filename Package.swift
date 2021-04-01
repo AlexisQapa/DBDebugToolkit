@@ -9,5 +9,5 @@ let package = Package(
 	platforms: [.iOS("13.4")],
 	products: [.library(name: "DBDebugToolkit", targets: ["DBDebugToolkit"])],
 	dependencies: [],
-	targets: [.target(name: "DBDebugToolkit")],
+	targets: [.target(name: "DBDebugToolkit")]
 )
